@@ -7,7 +7,7 @@ app.use(express.json());
 const cookieParser = require("cookie-parser");
 
 app.use(cors({
-  origin: ["http://localhost:5174", "http://localhost:5173", "https://mcs-internship-portal.vercel.app/", "https://admin-internship-site-eb8x.vercel.app/"],
+  origin: ["http://localhost:5174", "http://localhost:5173", "https://mcs-internship-portal.vercel.app", "https://admin-internship-site-eb8x.vercel.app"],
   methods: ['GET','POST','PUT','DELETE','OPTIONS'],
   credentials: true
 }));
