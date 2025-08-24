@@ -3,7 +3,7 @@ const router = express.Router();
 // const archiver = require("archiver");
 // const path = require("path");
 const controller = require("../controllers/internshipController");
-const { uploadFields } = require("../utils/fileHandler");
+const { uploadFields } = require("../utils/fileHandler.js");
 const auth = require("../middleware/authMiddleware");
 
 // ===============================
